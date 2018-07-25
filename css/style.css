@@ -7,7 +7,18 @@ body, html {
   text-align: center;
   background-color: #666;
 }
-
+.container {
+  column-count: 3;
+}
+.small {
+  width: 33px;
+}
+.medium {
+  width: 33px;
+}
+.large {
+  width: 33px; 
+}
 .container, h1 {
   width: 80%;
   max-width: 600px;
